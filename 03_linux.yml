@@ -2,10 +2,8 @@
 - hosts: linuxservers
   become: yes
 
-  vars_prompt:
-    - name: timezone
-      prompt: "Type the Timezone"
-      private: no
+  vars_files:
+    - linux_vars.yml
 
   tasks:
   - name: Set timezone
