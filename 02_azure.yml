@@ -2,7 +2,7 @@
 - hosts: localhost
   connection: local
   vars:
-    user: pand
+    user: ansible-user5
     location: northeurope
     virtual_network_name: "webserver_{{ user }}"
     subnet: Webserver
