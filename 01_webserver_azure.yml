@@ -1,4 +1,4 @@
-- hosts: tag_owner_pand
+- hosts: tag_solution_webserver_pand
   become: yes
   vars:
     websiteheader: "Ansible Playbook"
