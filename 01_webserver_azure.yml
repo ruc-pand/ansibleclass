@@ -1,4 +1,4 @@
-- hosts: tag_solution_webserver_jesbe
+- hosts: tag_owner_pand
   become: yes
   vars:
     websiteheader: "Ansible Playbook"
